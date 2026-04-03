@@ -17,7 +17,7 @@ jobs:
       - name: Generate docs/commits.html
         run: |
           echo "<table border='0' cellpadding='4' cellspacing='0' width='100%'>" > docs/commits.html
-          git log -5 --pretty=format:"<tr><td class='txt' style='font-size:11px; border-bottom:1px solid #eee;'><span style='color:#999;'>%ad</span><br><a href='https://github.com/Jakkret/OpenGaduServer/commit/%H' class='more1'>%s</a></td></tr>" --date=short >> docs/commits.html
+          git log -5 --pretty=format:"<tr><td class='txt' style='font-family: Arial, Verdana, sans-serif; font-size:12px; border-bottom:1px solid #eee;'><span style='color:#999;'>Website - %ad</span><br><a href='https://github.com/Jakkret/website/commit/%H' class='more1'>%s</a></td></tr>" --date=short >> docs/commits.html
           echo "</table>" >> docs/commits.html
       
       - name: Commit and push
