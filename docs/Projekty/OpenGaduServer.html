@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Jakkret</title>
+<title>OpenGaduServer</title>
 <style type="text/css">
 body {
   margin: 0; padding: 10px 0;
@@ -122,7 +122,7 @@ function hm(id) {
       <table border="0" cellpadding="0" cellspacing="0">
       <tr>
         <td style="padding: 2px 0; border-bottom: 1px solid #cccccc;">
-          <a href="iBlog/iblog.html" style="font-size: 11px; color: #003399;">iBLOG</a>
+          <a href="../iBlog/iblog.html" style="font-size: 11px; color: #003399;">iBLOG</a>
           <span style="color: #999999; font-size: 11px;"> &rarr;</span>
         </td>
       </tr>
@@ -149,12 +149,12 @@ function hm(id) {
     <td>
       <table border="0" cellpadding="0" cellspacing="0">
       <tr>
-        <td nowrap="nowrap"><a href="#" style="display:block;padding:5px 14px;color:#fff;font-weight:bold;text-decoration:none;">Strona g&#322;&#243;wna</a></td>
+        <td nowrap="nowrap"><a href="../index.html" style="display:block;padding:5px 14px;color:#fff;font-weight:bold;text-decoration:none;">Strona g&#322;&#243;wna</a></td>
         <td nowrap="nowrap" class="dd" onmouseover="sm('m1')" onmouseout="hm('m1')">
           <a href="#" style="display:block;padding:5px 14px;color:#fff;font-weight:bold;text-decoration:none;">Projekty &#9660;</a>
           <div class="dd-menu" id="m1">
 		  <!-- MENU PROJEKTY -->
-            <a href="Projekty/OpenGaduServer.html">OpenGaduServer</a>
+            <a href="#">OpenGaduServer</a>
             <a href="#">Lamus</a>
             <a href="#">SNEK_GL</a>
             <a href="#"><b>&rarr; Wszystkie projekty</b></a>
@@ -186,14 +186,14 @@ function hm(id) {
     <!-- LEWA -->
     <td width="155" bgcolor="#ffffff" style="border-right: 1px solid #cccccc;">
       <div class="section-header">Nawigacja</div>
-      <a href="#welcome" class="sidebar-link">Strona główna</a>
+      <a href="../index.html" class="sidebar-link">Strona główna</a>
       <a href="#projects" class="sidebar-link">Projekty</a>
       <a href="#skills" class="sidebar-link">Umiejętności</a>
 	  <a href="#about-me" class="sidebar-link">O mnie</a>
       <br>
 	  <!-- PROJEKTY  -->
       <div class="section-header">Projekty</div>
-      <a href="Projekty/OpenGaduServer.html" class="sidebar-link">OpenGaduServer</a>
+      <a href="#" class="sidebar-link">OpenGaduServer</a>
       <a href="#" class="sidebar-link">GGLamus</a>
 	  <a href="#" class="sidebar-link">SNEK_GL</a>
       <br>
@@ -223,20 +223,22 @@ function hm(id) {
     <td style="padding: 8px; border-right: 1px solid #cccccc;">
 
       <!-- POWITANIE -->
-      <div id="welcome" class="section-header">Witaj!</div>
+      <div id="welcome" class="section-header">OpenGaduServer</div>
       <table width="100%" border="0" cellpadding="6" cellspacing="0">
       <tr>
 	  <!-- Opis -->
-        <td style="font-size: 12px; color: #333333; line-height: 1.6;">
-          Cze&#347;&#263;! Jestem Jakkret — hobby programista, studiujący grafik komputerowy zainteresowany w retro computing,
-          protoko&#322;ami sieciowymi i systemami operacyjnymi. Pisz&#281; g&#322;&#243;wnie w języku <b>C</b> i czasami w <b>Pythonie</b>.
-          Aktualnie pracuj&#281; nad otwartym serwerem Gadu-Gadu - <b>OpenGaduServer</b>
+        <td style="font-size: 11px; color: #333333;">
+          <b>OpenGaduServer</b> - Jeden z projektów, gdzie jest czasami reserve-engineering, sniffing pakietów i działania klienta. 
+		  Projekt ten, ma na celu uruchomienie klientów GaduGadu w sposób lokalny. W chwili obecnej, najlepiej jest wspierany klient
+		  wersji 5.0.5. Wsparcie dla klienta 6.0 i dalszych nadejdą w późniejszym czasie. <br><br>'Infrastruktura serwerowa' jest pisana 
+		  w języku C, natomiast Python jest używany dla szybkich skryptów (jak np. Lamus - bot GG oparty na API ollama), skrypty
+		  te są umiejscowione w folderze <i>src/debug/</i> 
         </td>
       </tr>
       </table>
 
       <br>
-      <div id="projects" class="section-header">Aktualne projekty</div>
+      <div id="projects" class="section-header">Dostępne wydania</div>
       <br>
 	  
 	  
@@ -244,67 +246,43 @@ function hm(id) {
       <table width="100%" border="0" cellpadding="0" cellspacing="0">
       <tr>
         <td style="padding: 0 0 10px 0;">
-          <p class="project-title"><a href="#">Lamus - GG_Lama.py</a></p>
+          <p class="project-title"><a href="#">Projekt nie posiada jeszcze wydania!</a></p>
           <p class="project-text">
-            Szybki Bot dla OpenGaduServer oparty na lokalnym API Ollamy.
-            Loguje si&#281; do serwera GG jak zwyk&#322;y klient i odpowiada na wiadomo&#347;ci u&#380;ywając AI - Dając szybki sposób interakcji i testowania wiadomości
+            Poczekaj, aż będzie dostępne wydanie w repozytorium - Jeżeli będzie wydana wersja, 
+			będzie ona możliwa do pobrania na tej stronie
           </p>          
-          <span class="tag-gray">OpenGaduServer</span>
-
           &nbsp;
+		  <!--
           <a href="#" class="wiecej">wi&#281;cej &rarr;</a>
+		  -->
         </td>
       </tr>
       </table>
-
-      <!-- OGS -->
-      <table width="100%" border="0" cellpadding="0" cellspacing="0">
-      <tr>
-        <td style="padding: 0 0 10px 0; border-bottom: 1px solid #dddddd;">
-          <p class="project-title"><a href="#">OpenGaduServer</a></p>
-          <p class="project-text">
-            Otwarty serwer protokołu Gadu-Gadu 5.x napisany w C.
-            Obsługuje logowanie, listę kontaktów, wiadomości i statusy.
-            Kompatybilny z oryginalnym klientem GG 5.05 (build 111).
-          </p>
-          <span class="tag">C</span>
-          <span class="tag">Instant Messaging</span>
-          &nbsp;
-		  <table align="right">
-			<tr>
-				<a href="Projekty/OpenGaduServer.html" class="wiecej">wi&#281;cej &rarr;</a>
-			</tr>
-		  </table>
-          &nbsp;&nbsp;
-        </td>
-      </tr>
-      </table>
-      <br>
 
 		<!-- Umiejętności -->
       <br>
-      <div id="skills" class="section-header">Moje Umiejętności</div>
+      <div id="skills" class="section-header">Ile jest jakiego języka w OpenGaduServer?</div>
       <table width="100%" border="0" cellpadding="5" cellspacing="0">
       <tr>
         <td width="80" style="font-size: 11px; color: #333333;">C</td>
         <td>
-          <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:60px;"></div></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:102px;"></div></div>
         </td>
-        <td style="font-size: 10px; color: #666666;">&nbsp; średniozaawansowany</td>
+        <td style="font-size: 10px; color: #666666;">&nbsp; 85.2%</td>
       </tr>
       <tr>
         <td style="font-size: 11px; color: #333333;">Python</td>
         <td>
-          <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:35px;"></div></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:15px;"></div></div>
         </td>
-        <td style="font-size: 10px; color: #666666;">&nbsp;średniopoczątkujący</td>
+        <td style="font-size: 10px; color: #666666;">13.0%</td>
       </tr>
       <tr>
-        <td style="font-size: 11px; color: #333333;">HTML/CSS</td>
+        <td style="font-size: 11px; color: #333333;">Inne</td>
         <td>
-          <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:10px;"></div></div>
+          <div class="skill-bar-bg"><div class="skill-bar-fill" style="width:2px;"></div></div>
         </td>
-        <td style="font-size: 10px; color: #666666;">&nbsp;początkujący</td>
+        <td style="font-size: 10px; color: #666666;">&nbsp; 1.8%</td>
       </tr>
       </table>
 
@@ -325,8 +303,9 @@ function hm(id) {
       </table>
       <br>
       <div class="right-header">Ostatnie commity (GitHub)</div>
-        <iframe src="commits.html" width="158" height="65" frameborder="0" scrolling="no"></iframe>
-		<iframe src="ogs-commit.html" width="158" height="65" frameborder="0" scrolling="no"></iframe>
+	  <br>
+        <span class="tag-gray" cellpadding="5">Dostępne na głównej stronie!</span>
+		<br>
       <br>
       <div class="right-header">Technologie</div>
       <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#ffffff">
