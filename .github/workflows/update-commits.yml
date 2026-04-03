@@ -4,6 +4,9 @@ name: Update commits
 on:
   push:
     branches: [main]
+    
+permissions:
+  contents: write
 
 jobs:
   update:
