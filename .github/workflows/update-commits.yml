@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
-      - name: Generate commits.html
+      - name: Generate docs/commits.html
         run: |
           echo "<table border='0' cellpadding='4' cellspacing='0' width='100%'>" > docs/commits.html
           git log -5 --pretty=format:"<tr><td class='txt' style='font-size:11px; border-bottom:1px solid #eee;'><span style='color:#999;'>%ad</span><br><a href='https://github.com/Jakkret/OpenGaduServer/commit/%H' class='more1'>%s</a></td></tr>" --date=short >> docs/commits.html
@@ -24,6 +24,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add commits.html
+          git add docs/commits.html
           git commit -m "Auto: update commits" || exit 0
           git push
