@@ -143,7 +143,9 @@ function hm(id) {
   </tr>
   </table>
 
-  <!-- NAWIGACJA -->
+  <!-- ###################################### NAWIGATOR -->
+  
+  
   <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#003399" class="nav-main">
   <tr>
     <td>
@@ -160,9 +162,29 @@ function hm(id) {
             <a href="#"><b>&rarr; Wszystkie projekty</b></a>
           </div>
         </td>
-        <td nowrap="nowrap"><a href="#" style="display:block;padding:5px 14px;color:#fff;font-weight:bold;text-decoration:none;">O mnie</a></td>
-        <td nowrap="nowrap"><a href="iBlog/iblog.html" style="display:block;padding:5px 14px;color:#fff;font-weight:bold;text-decoration:none;">iBlog</a></td>
-        <td nowrap="nowrap"><a href="#" style="display:block;padding:5px 14px;color:#fff;font-weight:bold;text-decoration:none;">GitHub</a></td>
+        <td nowrap="nowrap"><a 
+			href="err/404.htm" 
+			style="display:block;
+				   padding:5px 14px;
+				   color:#fff;
+				   font-weight:bold;
+				   text-decoration:none;">O mnie</a></td>
+				   
+        <td nowrap="nowrap"><a 
+			href="https://iblog.jakkret.net/" 
+			style="display:block;
+				   padding:5px 14px;
+				   color:#fff;
+				   font-weight:bold;
+				   text-decoration:none;">iBlog</a></td>
+				   
+        <td nowrap="nowrap"><a 
+			href="#" 
+			style="display:block;
+				   padding:5px 14px;
+				   color:#fff;
+				   font-weight:bold;
+				   text-decoration:none;">GitHub</a></td>
         <td nowrap="nowrap" width="100%">&nbsp;</td>
       </tr>
       </table>
@@ -191,7 +213,9 @@ function hm(id) {
       <a href="#skills" class="sidebar-link">Umiejętności</a>
 	  <a href="#about-me" class="sidebar-link">O mnie</a>
       <br>
-	  <!-- PROJEKTY  -->
+	  
+	  
+	  <!-- LINKI  -->
       <div class="section-header">Projekty</div>
       <a href="Projekty/OpenGaduServer.html" class="sidebar-link">OpenGaduServer</a>
       <a href="#" class="sidebar-link">GGLamus</a>
@@ -199,9 +223,11 @@ function hm(id) {
       <br>
       <div class="section-header">Linki</div>
       <a href="https://github.com/Jakkret" class="sidebar-link">Profil GitHub</a>
-      <a href="#portfolio" class="sidebar-link">Portfolio</a>
-      <a href="iBlog/iblog.html" class="sidebar-link">iBlog</a>
+      <a href="err/404.htm" class="sidebar-link">Portfolio</a>
+      <a href="https://iblog.jakkret.net/" class="sidebar-link">iBlog</a>
       <br>
+	  
+	  
       <!-- STATUS BOX -->
       <table width="140" border="1" bordercolor="#003399" cellpadding="4" cellspacing="0" align="center" style="margin-top: 8px;">
       <tr bgcolor="#003399">
@@ -212,7 +238,7 @@ function hm(id) {
       <tr bgcolor="#ffffff">
         <td style="font-size: 10px; color: #333333; text-align: center; line-height: 1.5;">
           &#9679; <span style="color: #009900;">dostępny</span><br>
-          otwarty na projekty
+          otwarty na projekty open-source
         </td>
       </tr>
       </table>
@@ -228,15 +254,15 @@ function hm(id) {
       <tr>
 	  <!-- Opis -->
         <td style="font-size: 12px; color: #333333; line-height: 1.6;">
-          Cze&#347;&#263;! Jestem Jakkret — hobby programista, studiujący grafik komputerowy zainteresowany w retro computing,
-          protoko&#322;ami sieciowymi i systemami operacyjnymi. Pisz&#281; g&#322;&#243;wnie w języku <b>C</b> i czasami w <b>Pythonie</b>.
-          Aktualnie pracuj&#281; nad otwartym serwerem Gadu-Gadu - <b>OpenGaduServer</b>
+          Cześć! Jestem Jakkret — hobby programista, informatyk i studiujący grafik komputerowy zainteresowany w retro computing,
+          protokołami sieciowymi i systemami operacyjnymi - Windows i Linux. Programując, zwykle używam języka <b>C</b> i czasami w <b>Pythonie</b> - Jak się zdarzy.
+          Aktualnie pracuje nad otwartym serwerem Gadu-Gadu - <b>OpenGaduServer</b>
         </td>
       </tr>
       </table>
 
       <br>
-      <div id="projects" class="section-header">Aktualne projekty</div>
+      <div id="projects" class="section-header">Wyróżnione projekty</div>
       <br>
 	  
 	  
@@ -244,15 +270,15 @@ function hm(id) {
       <table width="100%" border="0" cellpadding="0" cellspacing="0">
       <tr>
         <td style="padding: 0 0 10px 0;">
-          <p class="project-title"><a href="#">Lamus - GG_Lama.py</a></p>
+          <p class="project-title"><a href="#">Lamus - Pythonowy Bot dla OpenGaduServer</a></p>
           <p class="project-text">
             Szybki Bot dla OpenGaduServer oparty na lokalnym API Ollamy.
-            Loguje si&#281; do serwera GG jak zwyk&#322;y klient i odpowiada na wiadomo&#347;ci u&#380;ywając AI - Dając szybki sposób interakcji i testowania wiadomości
+            Loguje się do serwera GG jak zwyk&#322;y klient i odpowiada na wiadomo&#347;ci u&#380;ywając AI - Dając szybki sposób interakcji i testowania wiadomości
           </p>          
           <span class="tag-gray">OpenGaduServer</span>
 
           &nbsp;
-          <a href="#" class="wiecej">wi&#281;cej &rarr;</a>
+          <a href="https://github.com/Jakkret/OpenGaduServer/tree/main/src/debug" class="wiecej">przejdź do GitHub &rarr;</a>
         </td>
       </tr>
       </table>
@@ -267,12 +293,14 @@ function hm(id) {
             Obsługuje logowanie, listę kontaktów, wiadomości i statusy.
             Kompatybilny z oryginalnym klientem GG 5.05 (build 111).
           </p>
-          <span class="tag">C</span>
-          <span class="tag">Instant Messaging</span>
+		  <!-- Tagi -->
+          <span class="tag">C</span> <span class="tag">Instant Messaging</span>
           &nbsp;
+		  
+		  <!-- link -->
 		  <table align="right">
 			<tr>
-				<a href="Projekty/OpenGaduServer.html" class="wiecej">wi&#281;cej &rarr;</a>
+				<a href="Projekty/OGS/index.html" class="wiecej">więcej &rarr;</a>
 			</tr>
 		  </table>
           &nbsp;&nbsp;
@@ -283,7 +311,7 @@ function hm(id) {
 
 		<!-- Umiejętności -->
       <br>
-      <div id="skills" class="section-header">Moje Umiejętności</div>
+      <div id="skills" class="section-header">Moje Umiejętności Programistyczne</div>
       <table width="100%" border="0" cellpadding="5" cellspacing="0">
       <tr>
         <td width="80" style="font-size: 11px; color: #333333;">C</td>
@@ -319,14 +347,14 @@ function hm(id) {
           <b>GitHub:</b><br>
           <a href="https://github.com">github.com/Jakkret</a><br>
           <b>E-mail:</b><br>
-          <a href="mailto:kreciak09+web@gmail.com">kreciak09+web@gmail.com</a>
+          <a href="mailto:contact@jakkret.net">contact@jakkret.net</a>
         </td>
       </tr>
       </table>
       <br>
-      <div class="right-header">Ostatnie commity (GitHub)</div>
-        <iframe src="commits.html" width="158" height="50" frameborder="0" scrolling="yes"></iframe>
-		<iframe src="ogs-commit.html" width="158" height="62" frameborder="0" scrolling="yes"></iframe>
+      <div class="right-header">Commits (GitHub)</div>
+        <iframe src="commits.html" width="158" height="50" frameborder="0" scrolling="no"></iframe>
+		<iframe src="ogs-commit.html" width="158" height="62" frameborder="0" scrolling="no"></iframe>
       <br>
       <div class="right-header">Technologie</div>
       <table width="100%" border="0" cellpadding="5" cellspacing="0" bgcolor="#ffffff">
@@ -354,12 +382,15 @@ function hm(id) {
     <td style="padding: 6px; text-align: center; color: #aabbdd; font-size: 10px;">
       Copyright &copy; 2026 Jakkret &bull;
       <a href="https://www.github.com/jakkret" style="color:#ffffff;">GitHub</a> &bull;
-      <a href="#" style="color:#ffffff;">Kontakt</a> <br>
-      Najlepiej wyświetlana w przeglądarce <b>RetroZilla 2.5.0</b>
+	  
+      <a href="mailto:contact@jakkret.net" style="color:#ffffff;">Kontakt Pocztowy</a> <br>
+      Najlepiej wyświetlana w przeglądarce <b>RetroZilla 2.3.0</b>
       <br><br>
+	  
       <a href="https://chomikuj.pl/Kretuj?b=1">
-        <img src="https://images.chomikuj.pl/button/Kretuj.gif" width="120px" border="2px" />
+        <img src="https://images.chomikuj.pl/button/Kretuj.gif" width="110px" border="2px" />
       </a>
+	  <img src="banners/anybrowser.gif">
       
     </td>
   </tr>
